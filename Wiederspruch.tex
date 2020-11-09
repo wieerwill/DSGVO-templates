@@ -1,0 +1,59 @@
+\documentclass[a4paper, pagenumber=footmiddle, parskip=half,
+	foldmarks=true,foldmarks=BmT,
+	fromalign=right,  % Align sender to the right
+	fromphone=false, fromfax=false, fromemail=true, fromurl=true, fromlogo=true,
+	fromrule=false, version=last]{scrlttr2}
+\usepackage{graphics}
+\usepackage[ngerman]{babel}
+\usepackage{ngerman}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{eurosym}
+\usepackage[top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{ifxetex}
+\usepackage{ifluatex}
+\usepackage[pdfencoding=auto,unicode, bookmarks=false, colorlinks=false, pdfborder={0 0 0},pdftitle={Auskunft von NorthScorp}, pdfauthor={NorthScorp UG}, pdfsubject={Auskunft}, pdfkeywords={Auskunft, NorthScorp}]{hyperref}
+
+\renewcommand*{\raggedsignature}{\raggedright} 
+
+\setkomavar{fromname}{YOUR NAME}
+\setkomavar{fromaddress}{YOUR STREET\\ YOUR CITY}
+\setkomavar*{fromemail}{YOUR@MAIL}
+\setkomavar{subject}[]{Auskunft nach DSGVO Art. 15}
+
+\begin{document}
+\begin{letter}{
+%===================================% receiver
+	Max Mustermann Agency\\ 
+	z.Hd. Herrn Mustermann\\ \ \\
+	Musterstr. 12\\
+	12345 Musterstadt
+%===================================
+}
+\flushleft
+\opening{Sehr geehrte Damen und Herren,}
+
+ich lege hiermit Widerspruch gegen die Verarbeitung meiner personenbezogenen Daten für Direktwerbung gemäß Art. 21 Abs. 2 DSGVO ein. Der Widerspruch betrifft auch Profiling, soweit es mit Direktwerbung in Verbindung steht.
+
+Sollte ich eine Einwilligung zur Verarbeitung meiner Daten für Direktwerbung (bspw. nach Art. 6 Abs. 1 lit. a oder Art. 9 Abs. 2 DSGVO) erteilt haben, widerrufe ich diese hiermit.
+
+Meine Anfrage schließt explizit auch sämtliche weiteren Angebote und Unternehmen ein, für die Sie Verantwortlicher im Sinne des Art. 4 Nr. 7 DSGVO sind.
+
+Nach Art. 12 Abs. 3 DSGVO haben Sie mir meinen Widerspruch unverzüglich, spätestens aber innerhalb eines Monats nach Eingang des Antrags, zu bestätigen.
+
+Zur Identifikation meiner Person habe ich folgende Daten beigefügt:
+Hier Deine Daten zur Identifikation einfügen. Das sind – je nach Art der Werbung – in der Regel Angaben wie Dein Name und Deine Adresse oder Deine E-Mail-Adresse.
+
+Sollten Sie meinem Antrag nicht innerhalb der genannten Frist nachkommen, behalte ich mir vor rechtliche Schritte gegen Sie einzuleiten und Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde einzureichen.
+
+Schon im Voraus vielen Dank für Ihre Mühe.
+
+
+\closing{mit freundlichen Grüßen,}
+
+
+\end{letter}
+\end{document}

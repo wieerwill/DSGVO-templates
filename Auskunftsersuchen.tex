@@ -1,0 +1,65 @@
+\documentclass[a4paper, pagenumber=footmiddle, parskip=half,
+	foldmarks=true,foldmarks=BmT,
+	fromalign=right,  % Align sender to the right
+	fromphone=false, fromfax=false, fromemail=true, fromurl=true, fromlogo=true,
+	fromrule=false, version=last]{scrlttr2}
+\usepackage{graphics}
+\usepackage[ngerman]{babel}
+\usepackage{ngerman}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{eurosym}
+\usepackage[top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{ifxetex}
+\usepackage{ifluatex}
+\usepackage[pdfencoding=auto,unicode, bookmarks=false, colorlinks=false, pdfborder={0 0 0},pdftitle={Auskunft von NorthScorp}, pdfauthor={NorthScorp UG}, pdfsubject={Auskunft}, pdfkeywords={Auskunft, NorthScorp}]{hyperref}
+
+\renewcommand*{\raggedsignature}{\raggedright} 
+
+\setkomavar{fromname}{YOUR NAME}
+\setkomavar{fromaddress}{YOUR STREET\\ YOUR CITY}
+\setkomavar*{fromemail}{YOUR@MAIL}
+\setkomavar{subject}[]{Auskunft nach DSGVO Art. 15}
+
+\begin{document}
+\begin{letter}{
+%===================================% receiver
+	Max Mustermann Agency\\ 
+	z.Hd. Herrn Mustermann\\ \ \\
+	Musterstr. 12\\
+	12345 Musterstadt
+%===================================
+}
+\flushleft
+\opening{Sehr geehrte Damen und Herren,}
+
+nach Art. 15 DSGVO habe ich das Recht, von Ihnen eine Bestätigung darüber zu verlangen, ob Sie personenbezogene Daten über meine Person gespeichert haben. Sofern dies der Fall ist, so habe ich ein Recht auf Auskunft über diese Daten.
+
+\textbf{1. Auskunft über meine bei Ihnen gespeicherten Daten}
+Ich darf Sie in diesem Fall bitten, mir gemäß Art. 15 Abs. 1 DSGVO folgende Informationen mitzuteilen:
+
+\begin{itemize} 
+	\item Welche Daten über meine Person konkret bei Ihnen gespeichert oder verarbeitet werden (z.B. Name, Vorname, Anschrift, Geburtsdatum, Beruf, medizinische Befunde).
+	\item Weiterhin wollen Sie mich bitte über die Verarbeitungszwecke meiner Daten ebenso informieren wie über
+	\item die Kategorien personenbezogener Daten, die bezüglich meiner Person verarbeitet werden;
+	\item die Empfänger oder Kategorien von Empfängern, die meine Daten bereits erhalten haben oder künftig noch erhalten werden;
+	\item die geplante Dauer für die Speicherung meiner Daten, oder, falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer;
+	\item über das Bestehen meiner Rechte auf Berichtigung, Löschung oder Einschränkung der Verarbeitung meiner Daten, ebenso wie über mein Widerspruchsrecht gegen diese Verarbeitung nach Art. 21 DSGVO und mein Beschwerderecht bei der zuständigen Aufsichtsbehörde.
+	\item Sofern die Daten nicht bei mir erhoben werden, fordere ich Sie auf, mir alle verfügbaren Informationen über die Herkunft der Daten mitzuteilen; sowie
+	\item mir darzulegen, ob eine automatisierte Entscheidungsfindung einschließlich Profiling gemäß Art. 22 DSGVO besteht. In diesem Fall wollen Sie mir bitte aussagekräftige Informationen über die involvierte Logik und die angestrebten Auswirkungen einer derartigen Verarbeitung für meine Person mitteilen.
+	\item Wurden meine personenbezogenen Daten an ein Drittland oder an eine internationale Organisation übermittelt, wollen Sie mir bitte mitteilen, welche geeigneten Garantien gemäß Art. 46 DSGVO im Zusammenhang mit der Übermittlung vorgesehen sind.
+\end{itemize}
+
+Bitte stellen Sie mir kostenfrei eine Kopie meiner bei Ihnen gespeicherten personenbezogenen Daten zur Verfügung. Sofern ich diesen Antrag stelle und nichts anderes vermerke, so sind mir die Informationen in einem gängigen elektronischen Format in ausreichender Verschlüsselung zur Verfügung zu stellen.
+
+\textbf{2. Fristen und Rechtsfolgen}
+Auskunftserteilungen müssen gemäß Art. 12 Abs. 3 DSGVO unverzüglich erfolgen, spätestens aber innerhalb eines Monats. Sollte ich innerhalb dieser Frist keine Auskunft von Ihnen erhalten, so werde ich mich an die zuständige Aufsichtsbehörde wenden. Ich mache darauf aufmerksam, dass unterlassene oder nicht vollständige Auskunftserteilungen nach Art. 83 Abs. 5 DSGVO mit einer hohen Geldbuße bedroht sind.
+
+\closing{mit freundlichen Grüßen,}
+
+
+\end{letter}
+\end{document}
