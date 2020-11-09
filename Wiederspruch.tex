@@ -1,7 +1,6 @@
 \documentclass[a4paper, pagenumber=footmiddle, parskip=half,
-	foldmarks=true,foldmarks=BmT,
-	fromalign=right,  % Align sender to the right
-	fromphone=false, fromfax=false, fromemail=true, fromurl=true, fromlogo=true,
+	foldmarks=true,foldmarks=BmT, fromalign=right,
+	fromphone=false, fromfax=false, fromemail=true, fromurl=false, fromlogo=false,
 	fromrule=false, version=last]{scrlttr2}
 \usepackage{graphics}
 \usepackage[ngerman]{babel}
@@ -15,22 +14,32 @@
 \usepackage[top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
 \usepackage{ifxetex}
 \usepackage{ifluatex}
-\usepackage[pdfencoding=auto,unicode, bookmarks=false, colorlinks=false, pdfborder={0 0 0},pdftitle={Auskunft von NorthScorp}, pdfauthor={NorthScorp UG}, pdfsubject={Auskunft}, pdfkeywords={Auskunft, NorthScorp}]{hyperref}
+\usepackage[pdfencoding=auto,unicode, bookmarks=false, colorlinks=false, pdfborder={0 0 0},pdftitle={Auskunft}, pdfauthor={Wieerwill@github}, pdfsubject={Auskunft}]{hyperref}
+
+%%%%%% ANPASSEN START %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\xdef\meinName{mein Name}
+\xdef\meineStrasse{meine Straße}
+\xdef\meineStadt{meine Stadt}
+\xdef\meineEmail{meine Email}
+
+\xdef\EmpfaengerName{Mustermann}
+\xdef\EmpfaengerStrasse{Musterstraße 1}
+\xdef\EmpfaengerStadt{00000 Musterstadt}
+%%%%%% ANPASSEN ENDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand*{\raggedsignature}{\raggedright} 
 
-\setkomavar{fromname}{YOUR NAME}
-\setkomavar{fromaddress}{YOUR STREET\\ YOUR CITY}
-\setkomavar*{fromemail}{YOUR@MAIL}
-\setkomavar{subject}[]{Auskunft nach DSGVO Art. 15}
+\setkomavar{fromname}{\meinName}
+\setkomavar{fromaddress}{\meineStrasse \\ \meineStadt}
+\setkomavar*{fromemail}{\meineEmail}
+\setkomavar{subject}[]{Wiederspruch nach DSGVO Art. 21}
 
 \begin{document}
 \begin{letter}{
 %===================================% receiver
-	Max Mustermann Agency\\ 
-	z.Hd. Herrn Mustermann\\ \ \\
-	Musterstr. 12\\
-	12345 Musterstadt
+	\EmpfaengerName\\
+	\EmpfaengerStrasse\\
+	\EmpfaengerStadt
 %===================================
 }
 \flushleft
