@@ -35,9 +35,31 @@ Die vollständige Ausführung der DSGVO kannst du auf [dsgvo-gesetz.de](dsgvo-ge
     - manche Vorlagen erwarten mehr Informationen z.B. welche Daten gelöscht werden sollen. Trage diese auch ein
     - Kompiliere das .tex Dokument danach und erhalte dein eigenes PDF das du versenden kannst
 
+## Diese Unternehmen verdienen mit deinen Daten ihr Geld
+- [ABIS GmbH](mailto:datenschutz@abis-online.de)
+- [Acxiom Deutschland GmbH](mailto:datenschutz@acxiom.com)
+- [adpublisher AG](mailto:datenschutz@adpublisher.com)
+- [AZ Direct GmbH](mailto:datenschutz@az-direct.com)
+- [ARD ZDF Deutschlandradio Beitragsservice](mailto:datenschutz@beitragsservice.de)
+- [BFS health finance GmbH](mailto:datenschutz@meinebfs.de)
+- [Creditreform Boniversum GmbH](mailto:selbstauskunft@boniversum.de)
+- [CRIF Bürgel GmbH](mailto:datenschutz@crifbuergel.de)
+- [Deutsche Post Adress GmbH & Co. KG](mailto:auskunft@postadress.de)
+- [Deutsche Post Direkt GmbH](mailto:datenschutz@postdirekt.de)
+- [eGENTIC GmbH](mailto:datenschutz@egentic.com)
+- [EOS Holding GmbH](mailto:datenschutz@eos-solutions.com)
+- [EURO-PRO Ges. für Data Processing mbH](mailto:datenschutz@europro.de)
+- [IHD Gesellschaft für Kredit- und Forderungsmanagement mbH](mailto:inkasso@ihd.de)
+- [informa HIS GmbH](mailto:his-Datenschutz@informa.de)
+- [infoscore Consumer Data GmbH](mailto:datenschutz@arvato-infoscore.de)
+- [Regis24 GmbH](mailto:datenschutz@regis24.de)
+- [SCHUFA Holding AG](mailto:datenschutz@schufa.de)
+- [UNIVERSUM Business GmbH](mailto:selbstauskunft.ub@universum-group.de)
+
+Diese Liste ist nicht vollständig! Sie umfasst in Deutschland ansässige Firmen die Daten zu wahrscheinlich der gesamten Bevölkerung speichern. Hilf uns diese Liste auszubauen 
 
 ## Danke
 Danke an viele Quellen, die helfen diese Dokumente in ausführlicher Form zu entwerfen. Schaut bei Ihnen vorbei, hier warten viele tolle Artikel und Infos:
 - [datenschmutz.de](www.datenschmutz.de)
-- [datenanfragen.de](www.datenanfragen.de)
+- [datenanfragen.de](www.datenanfragen.de) mit [Anfragengenerator](https://www.datenanfragen.de/generator)
 - [CT Magazin](www.ct.de)
