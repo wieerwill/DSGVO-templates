@@ -2,24 +2,29 @@
 
 Anträge für die alltägliche Verwendung der DSGVO. Egal ob lästige Werbung oder ungewollte Verarbeitung, nimm diese Vorlagen und setz dem ein Ende.
 
-Alle Texte sind als PDF für den Briefversand vorbereitet. Ändere noch deine eigenen Angaben und los gehts.
+Alle Texte sind als PDF für den Briefversand oder als Textdatei für den Emailverkehr vorbereitet. Ändere noch deine eigenen Angaben und los gehts.
 
 ## Kenne deine Rechte
 - Art. 15: Auskunftsrecht der betroffenen Person
   - [zum .tex-Dokument](Auskunftsersuchen.tex)
   - [zur PDF Vorschau](Auskunftsersuchen.pdf)
+  - [zur Textdatei](Auskunftsersuchen.txt)
 - Art. 16: Recht auf Berichtigung
   - [zum .tex-Dokument](Berichtigung.tex)
   - [zur PDF Vorschau](Berichtigung.pdf)
+  - [zur Textdatei](Berichtigung.txt)
 - Art. 17: Recht auf Löschung („Recht auf Vergessenwerden“)
   - [zum .tex-Dokument](Löschung.tex)
   - [zur PDF Vorschau](Löschung.pdf)
+  - [zur Textdatei](Löschung.txt)
 - Art. 18: Recht auf Einschränkung der Verarbeitung
   - [zum .tx-Dokument](Einschränkung.tex)
   - [zur PDF Vorschau](Einschränkung.pdf)
+  - [zur Textdatei](Einschränkung.txt)
 - Art. 21: Widerspruchsrecht
   - [zum .tex-Dokument](Wiederspruch.tex)
   - [zur PDF Vorschau](Wiederspruch.pdf)
+  - [zur Textdatei](Wiederspruch.txt)
 
 Die vollständige Ausführung der DSGVO kannst du auf [dsgvo-gesetz.de](dsgvo-gesetz.de) nachlesen.
 
